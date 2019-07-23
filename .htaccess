@@ -1,0 +1,7 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^Work/list/$   RestController.php?view=all [nc,qsa]
+RewriteRule ^Work/list/([0-9]+)/$   RestController.php?view=time&year=$1 [nc,qsa]
