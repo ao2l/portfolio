@@ -14,7 +14,7 @@ Class Work implements JsonSerializable {
 
 		array_push($this->positions, new Position('Software Design Lead', $this->designLeadDesc, 'creehan & company', 'Canonsburg', 'PA', '2015', '2017'));
 
-		array_push($this->positions, new Position('Systems Analyst', $this->systemAnalystDesc, 'Geneva College', 'Beaver Falls', 'PA', '2017', '2019'));
+		array_push($this->positions, new Position('Systems Analyst', $this->systemAnalystDesc, 'Geneva College', 'Beaver Falls', 'PA', '2017', '2020'));
 	}
 
 	/*positions private array field*/
