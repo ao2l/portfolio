@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'eurostileregular';
+    src: url('fonts/urw_-_eurostile-reg-webfont.woff2') format('woff2'),
+         url('fonts/urw_-_eurostile-reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body
 {
   background-image: url("main_background.gif");
@@ -49,7 +58,7 @@ nav.navbar
 a.navbar-brand
 {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: 'eurostileregular', Lucida Console, sans-serif;
   font-size: 2em;
   text-decoration: none;
   padding-left: 10px;
@@ -58,7 +67,7 @@ a.navbar-brand
 a.nav-link
 {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: 'eurostileregular', Lucida Console, sans-serif;
   font-size: 1.3em;
   color: gray;
   text-decoration: none;
@@ -73,13 +82,13 @@ a.nav-link
 
 p.my-card-text
 {
-  font-family: Lucida Console;
+  font-family: 'eurostileregular', Lucida Console, sans-serif;
   font-size: 1.3em;
 }
 
 .card-title
 {
-  font-family: Lucida Console;
+  font-family: 'eurostileregular', Lucida Console, sans-serif;
   font-size: 2em;
 }
 
@@ -118,7 +127,7 @@ html
   background: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.7) !important;
   color: gray;
-  font-family: Lucida Console;
+  font-family: 'eurostileregular', Lucida Console, sans-serif;
   font-size: 1em;
 }
 
