@@ -14,7 +14,7 @@ Class Work implements JsonSerializable {
 
 		array_push($this->positions, new Position('Software Design Lead', $this->designLeadDesc, 'creehan & company', 'Canonsburg', 'PA', '2015', '2017'));
 
-		array_push($this->positions, new Position('Systems Analyst', $this->systemAnalystDesc, 'Geneva College', 'Beaver Falls', 'PA', '2017', '2020'));
+		array_push($this->positions, new Position('Systems Analyst', $this->systemAnalystDesc, 'Geneva College', 'Beaver Falls', 'PA', '2017', '2021'));
 	}
 
 	/*positions private array field*/
@@ -25,7 +25,7 @@ Class Work implements JsonSerializable {
 	private $softwareDeveloperDesc = 'As a software developer I honed my skills in SQL and C#. Working in an agile SCRUM methodology, I worked on many different parts of application development from scripting stored procedures in the database to creating the front end forms for data entry.'; 
 	private $softwareDesignDesc = 'In the software design team I created the user experience. I wrote technical specifications and layed out user interfaces while managing the needs of the user, the company, and the development team. I designed software that makes business sense, is easy to use, and is easy to fix issues and add new features.';
 	private $designLeadDesc = 'Being the lead in the software design team opened up many oppertunities to work with clients. I was able to visit clients and speak with them about their needs for web services and APIs. I especially enjoyed being on the web service review board, where new web service aritectures and schemas were discussed.';
-	private $systemAnalystDesc = 'At Geneva College I bring together all of the skills I have learned from my previous positions. I help faculty and staff with technical issues in software; I develop data integrations between the systems in use by the college; I write technical specifications and user guides so that anyone can use and maintain what I develop.';
+	private $systemAnalystDesc = 'At Geneva College I bring together all of the skills I have learned from my previous positions. I help faculty and staff with technical issues with the applications they use; I develop data integrations between the systems in use by the college; I write technical specifications and user guides so that anyone can use and maintain what I develop.';
 
 	/* public property function to return the positions*/
 	public function getPositions() {
